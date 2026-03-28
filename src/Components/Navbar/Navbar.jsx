@@ -1,10 +1,11 @@
 import React from "react";
 import DollarPNG from "../../assets/dollar.png"
+import NavLogoPNG from "../../assets/logo.png"
 
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="max-w- navbar bg-base-100 shadow-sm rounded-lg">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,35 +30,35 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Home</a>
+                <a className="text-[#13131370] font-semibold">Home</a>
               </li>
               <li>
-                <a>Fixture</a>
+                <a className="text-[#13131370] font-semibold">Fixture</a>
               </li>
               <li>
-                <a>Teams</a>
+                <a className="text-[#13131370] font-semibold">Teams</a>
               </li>
               <li>
-                <a>Schedules</a>
+                <a className="text-[#13131370] font-semibold">Schedules</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="text-xl"><img src={NavLogoPNG} alt="" /></a>
         </div>
         <div className="navbar-end">
           <div className="hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Home</a>
+                <a className="text-[#13131370] font-semibold">Home</a>
               </li>
               <li>
-                <a>Fixture</a>
+                <a className="text-[#13131370] font-semibold">Fixture</a>
               </li>
               <li>
-                <a>Teams</a>
+                <a className="text-[#13131370] font-semibold">Teams</a>
               </li>
               <li>
-                <a>Schedules</a>
+                <a className="text-[#13131370] font-semibold">Schedules</a>
               </li>
             </ul>
           </div>
